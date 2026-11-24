@@ -12,6 +12,13 @@ Sort by end time and greedily accept every meeting that starts after the last ac
 
 **Complexity:** O(n log n) time, O(n) index space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
